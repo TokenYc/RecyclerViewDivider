@@ -2,20 +2,15 @@ package com.qianfanyun.recyclerviewdivider;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
 
 import com.qianfanyun.divider.Divider;
 import com.qianfanyun.divider.DividerBuilder;
 import com.qianfanyun.divider.DividerItemDecoration;
-import com.qianfanyun.divider.SideLine;
-import com.qianfanyun.divider.SimpeDivider;
-import com.qianfanyun.divider.SimpeGridDivider;
 
 import java.util.ArrayList;
 import java.util.List;

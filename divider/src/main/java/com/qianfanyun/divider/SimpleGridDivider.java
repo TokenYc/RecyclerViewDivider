@@ -7,7 +7,7 @@ import androidx.annotation.Nullable;
  * @date on 2019/3/20  3:45 PM
  * @mail 247067345@qq.com
  */
-public class SimpeGridDivider extends DividerItemDecoration {
+public class SimpleGridDivider extends DividerItemDecoration {
 
     private Divider divider;
 
@@ -15,7 +15,7 @@ public class SimpeGridDivider extends DividerItemDecoration {
 
     private int spanCount;
 
-    public SimpeGridDivider(int color, int size, int spanCount) {
+    public SimpleGridDivider(int color, int size, int spanCount) {
 
         this.spanCount = spanCount;
         divider = new DividerBuilder().setBottomSideLine(color, size, 0, 0)
